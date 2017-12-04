@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: helvetica;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
   }
 
@@ -11,13 +11,13 @@
     display:block;
     background: #026AA7;
     height: 50px;
-    padding: 5px;
+    padding: 0px;
     width: 100%;
   }
 
   header > img {
     height: 30px;
-    margin-right: 500px;
+    margin-right: 400px;
     margin-left: 400px;
     width: 100px;
   }
@@ -39,7 +39,7 @@
     font-size: 15px;
     color: #ffffff;
     background-color: #67A6CA;
-    border-radius: 6px;
+    border-radius: 3px;
   }
 
    .tableros:hover {
@@ -48,17 +48,19 @@
     cursor: pointer;
   }
 
-  .search {
+  button {
     text-decoration: none;
     padding: 10px;
+    padding-left: 150px;
     font-weight: 60;
     font-size: 15px;
     color: #ffffff;
     background-color: #67A6CA;
-    border-radius: 6px;
+    border-radius: 3px;
+    border-style: none;
   }
 
-   .search:hover {
+   button:hover {
     color: #ffffff;
     background-color: #3588B9;
     cursor: pointer;
@@ -72,44 +74,10 @@
     font-size: 15px;
     color: #ffffff;
     background-color: #67A6CA;
-    border-radius: 6px;
-  }
-
-   a:hover {
-    color: #ffffff;
-    background-color: #3588B9;
-    cursor: pointer;
-  }
-
-  b {
-    display: inline-block;
-    left: auto;
-    text-decoration: none;
-    padding: 100px;
-    font-weight: 60;
-    font-size: 15px;
-    color: #ffffff;
-    background-color: #67A6CA;
     border-radius: 3px;
   }
 
-   b:hover {
-    color: #ffffff;
-    background-color: #3588B9;
-    cursor: pointer;
-  }
-
-
-  .img {
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 60;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #67A6CA;
-    border-radius: 6px;
-  }
-  .img:hover {
+   a:hover {
     color: #ffffff;
     background-color: #3588B9;
     cursor: pointer;
@@ -119,3 +87,24 @@
     margin-right: 100px;
     color: white;
   }
+
+
+/*
+    .trello {
+      text-decoration: none;
+      padding: 0px;
+      padding-left: 150px;
+      font-weight: 10;
+      font-size: 15px;
+      color: #ffffff;
+      background-color: #67A6CA;
+      border-radius: 3px;
+      border-style: none;
+    }
+
+     .trello:hover {
+      color: #ffffff;
+      background-color: #3588B9;
+      cursor: pointer;
+    }
+*/
