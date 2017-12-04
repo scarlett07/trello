@@ -1,0 +1,121 @@
+   body {
+    background: #1D8DC2;
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+    font-size: 30px;
+    color: white;
+  }
+
+  header {
+    display:block;
+    background: #026AA7;
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  header > img {
+    height: 30px;
+    margin-right: 500px;
+    margin-left: 400px;
+    width: 100px;
+  }
+
+  nav > button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 10px;
+    width: 100px;
+  }
+
+  .tableros {
+    font-family: helvetica;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 60;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #67A6CA;
+    border-radius: 6px;
+  }
+
+   .tableros:hover {
+    color: #ffffff;
+    background-color: #3588B9;
+    cursor: pointer;
+  }
+
+  .search {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 60;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #67A6CA;
+    border-radius: 6px;
+  }
+
+   .search:hover {
+    color: #ffffff;
+    background-color: #3588B9;
+    cursor: pointer;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 60;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #67A6CA;
+    border-radius: 6px;
+  }
+
+   a:hover {
+    color: #ffffff;
+    background-color: #3588B9;
+    cursor: pointer;
+  }
+
+  b {
+    display: inline-block;
+    left: auto;
+    text-decoration: none;
+    padding: 100px;
+    font-weight: 60;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #67A6CA;
+    border-radius: 3px;
+  }
+
+   b:hover {
+    color: #ffffff;
+    background-color: #3588B9;
+    cursor: pointer;
+  }
+
+
+  .img {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 60;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #67A6CA;
+    border-radius: 6px;
+  }
+  .img:hover {
+    color: #ffffff;
+    background-color: #3588B9;
+    cursor: pointer;
+  }
+
+  p {
+    margin-right: 100px;
+    color: white;
+  }
