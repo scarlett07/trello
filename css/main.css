@@ -93,6 +93,12 @@ body {
   display: none;
 }
 
+.textarea {
+  display: block;
+  height: 100px;
+  width: 250px;
+}
+
 
 /*
     .trello {
