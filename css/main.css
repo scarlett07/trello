@@ -1,12 +1,12 @@
-   body {
-    background: #1D8DC2;
-    margin: 0px;
-    padding: 0px;
-    font-family: helvetica;
-    font-size: 25px;
-    color: white;
-    width: 100%;
-  }
+body {
+  background: #1D8DC2;
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica;
+  font-size: 25px;
+  color: white;
+  width: 100%;
+}
 
   header {
     display:block;
@@ -88,6 +88,10 @@
     margin-right: 100px;
     color: white;
   }
+
+.hide-button {
+  display: none;
+}
 
 
 /*
