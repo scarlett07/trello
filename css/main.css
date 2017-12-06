@@ -173,6 +173,8 @@ margin-top: 5px;
   background-color: #E2E4E6;
   opacity: 5;
   border-radius: 3px;
+  display: inline-block;
+  margin: 15px;
 
 }
 
@@ -194,6 +196,7 @@ margin-top: 5px;
   width: 260px;
   padding: 2px;
   border-radius: 5px;
+  margin-left: 15px;
 }
 
 .button1 {

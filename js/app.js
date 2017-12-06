@@ -26,6 +26,8 @@ function addNewList(event) {
  var listContainer = document.createElement('div');
  var toDo = document.createElement('textarea');
  var addToDo = document.createElement('a');
+ var contenedor= document.getElementById('container-to-do');
+ var form=document.getElementById('form');
 
  //atributos
  listContainer.className = 'wrapper';
@@ -41,6 +43,8 @@ function addNewList(event) {
  containerToDoes.appendChild(listContainer);
  listContainer.appendChild(title);
  listContainer.appendChild(addToDo);
+
+
  //adding Title to the list
  title.innerText = titleList;
  addToDo.innerText = 'Add a card...';
@@ -78,6 +82,7 @@ function addNewList(event) {
      pNewList.innerText = valueTextArea;
      //set attibutes
      pNewList.className = 'show-activity';
+
    }
  }
 }
