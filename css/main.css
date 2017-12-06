@@ -1,93 +1,158 @@
 body {
-  background: #1D8DC2;
+  background: #0079BF;
   margin: 0px;
   padding: 0px;
   font-family: helvetica;
   font-size: 25px;
   color: white;
+}
+
+header {
+  background: #026AA7;
+  height: 50px;
+  padding: 0px;
   width: 100%;
 }
 
-  header {
-    display:block;
-    background: #026AA7;
-    height: 50px;
-    padding: 0px;
-    width: 100%;
-  }
+#finder {
+  background: #67A6CA ;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  margin: 10px;
+  width: 200px;
+  text-align: right;
+  height: 38px;
+}
 
-  header > img {
-    height: 30px;
-    margin-right: 400px;
-    margin-left: 400px;
-    width: 100px;
-  }
 
-  nav > button {
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 15px;
-    margin: 10px;
-    width: 100px;
-  }
+.tableros {
+  font-family: helvetica;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 60;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #67A6CA;
+  border-radius: 3px;
+}
 
-  .tableros {
-    font-family: helvetica;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 60;
-    font-size: 15px;
-    color: #ffffff;
-    background-color: #67A6CA;
-    border-radius: 3px;
-  }
+.tableros:hover {
+  color: #ffffff;
+  background-color: #4d97c1;
+  cursor: pointer;
+}
 
-   .tableros:hover {
-    color: #ffffff;
-    background-color: #3588B9;
-    cursor: pointer;
-  }
+::placeholder {
+  color: white;
+}
 
-  button {
-    text-decoration: none;
-    padding: 10px;
-    padding-left: 150px;
-    font-weight: 60;
-    font-size: 15px;
-    color: #ffffff;
-    background-color: #67A6CA;
-    border-radius: 3px;
-    border-style: none;
-  }
 
-   button:hover {
-    color: #ffffff;
-    background-color: #3588B9;
-    cursor: pointer;
-  }
+.btn-body {
+  padding: 1%;
+}
 
-  a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 60;
-    font-size: 15px;
-    color: #ffffff;
-    background-color: #67A6CA;
-    border-radius: 3px;
-  }
+b {
+ margin-right: 10px;
+ text-decoration: none;
+ padding: 5px;
+ font-weight: 0;
+ font-size: 15px;
+ color: #ffffff ;
+ background-color: #0079BF ;
+ border-radius: 3px;
+}
 
-   a:hover {
-    color: #ffffff;
-    background-color: #3588B9;
-    cursor: pointer;
-  }
+b:hover {
+ color: #ffffff ;
+ background-color: #006AA8 ;
+ cursor: pointer;
+}
 
-  p {
-    margin-right: 100px;
-    color: white;
-  }
+.my_button1, .my_button2, .my_button3 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  weight: 15px;
+  font-size: 20px;
+  color: #ffffff ;
+  background-color: #67A6CA ;
+  border-radius: 3px;
+  margin-right: 1%;
+}
+
+.my_button1 {
+  margin-left: 700px;
+}
+
+#finder:hover, .my_button1:hover, .my_button2:hover, .my_button3:hover {
+  color: #ffffff ;
+  background-color: #4d97c1 ;
+  cursor: pointer;
+}
+
+p {
+  margin-right: 100px;
+  color: white;
+}
+
+.logo {
+margin-left: 20%;
+margin-top: 5px;
+}
+
+.logo:hover {
+ color: lightblue;
+ cursor: pointer;
+}
+
+#button1 {
+ background: #519839 ;
+ color: white;
+ font-weight:600;
+ font-size: 15px;
+ height:35px;
+ width: 80px;
+ border-radius: 10%;
+ border: none;
+ text-align: center;
+ margin: 3px;
+}
+
+#button1:hover {
+ background: #1aa51a ;
+}
+
+#button2 {
+ background: none;
+ border: none;
+ color: gray;
+}
+
+#button2:hover {
+ color: black;
+}
+
+#title_list {
+ border-radius: 5px;
+ border: none;
+ background: #0079bf ;
+ color: white;
+ height: 30px;
+ width: 250px;
+}
+
+#title_list:hover {
+ background: #146089 ;
+}
+
+#close{
+  border: none;
+  color: gray;
+  font-weight: bolder;
+  background: none;
+}
 
 .hide-button {
   display: none;
@@ -101,4 +166,63 @@ body {
 
 .create-card {
   display: none;
+}
+
+.wrapper {
+  width: 260px;
+  background-color: #E2E4E6;
+  opacity: 5;
+  border-radius: 3px;
+
+}
+
+.show-activity {
+  background-color: #E2E4E6;
+  border: none;
+  float: left;
+  opacity: 6;
+  width: 100%;
+}
+
+.form {
+  background-color: #E2E4E6;
+  border: none;
+}
+
+.containerToDoes {
+  background-color: #E2E4E6;
+  width: 260px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.button1 {
+  background: #519839 ;
+  color: white;
+  font-weight:600;
+  font-size: 15px;
+  width: 80px;
+  border-radius: 10%;
+  border: none;
+  text-align: center;
+  padding: 9px;
+  margin: 0;
+}
+
+.button1:hover {
+  background: #1aa51a ;
+}
+
+.title{
+  color: black;
+  text-align: center;
+}
+
+.add-text{
+  color: gray;
+  font-size: 15px;
+}
+
+.add-text:hover{
+  cursor: pointer;
 }
